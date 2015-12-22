@@ -1,0 +1,2 @@
+dister lib/index.js "$" > dist/jq.min.js
+babel dist/jq.min.js | uglifyjs -c -m -o dist/jq.min.js
