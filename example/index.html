@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="../dist/elly.min.js"></script>
+        <title>Elly Example</title>
+    </head>
+    <body>
+        <ul class="my-list">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+        <script>
+            // Select the list element
+            var $myList = $(".my-list");
+
+            // A new element
+            $myList.appendChild(
+                $("<li>", {
+                    "class": "new-item"
+                  , text: "4"
+                })
+            );
+            // <ul class="my-list">
+            //     <li>1</li>
+            //     <li>2</li>
+            //     <li>3</li>
+            //     <li class="new-item">4</li>
+            // </ul>
+
+            // Select all the list items and remove the first one.
+            $.$$(".my-list > li")[0].remove();
+            // <ul class="my-list">
+            //     <li>2</li>
+            //     <li>3</li>
+            //     <li class="new-item">4</li>
+            // </ul>
+        </script>
+    </body>
+</html>

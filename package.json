@@ -39,5 +39,11 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/elly/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/elly#readme"
+  "homepage": "https://github.com/IonicaBizau/elly#readme",
+  "dependencies": {
+    "iterate-object": "^1.3.2"
+  },
+  "blah": {
+    "examplePath": "index.html"
+  }
 }
