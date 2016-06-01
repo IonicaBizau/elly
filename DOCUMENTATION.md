@@ -2,13 +2,23 @@
 
 You can see below the API reference of this module.
 
-### `elly(a, b)`
-A tiny library for creating and selecting DOM elements.
+### `elly(input, contextOrAttributes)`
+Selects the DOM elements based on the provided selector. If there is no commonjs/module environment, the `$` global variable will be created.
 
 #### Params
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
+- **String|HTMLElement** `input`: The element selector (e.g. `'#my-id > .my-class'`), the element tag you want to create (e.g. `'<ul>'`) or the HTML element (will be returned by the function).
+- **Object|HTMLElement** `contextOrAttributes`:
 
 #### Return
-- **Number** Return description.
+- **HTMLElement** The HTMLElement that was provided or selected.
+
+### `elly.$$(selector, context)`
+Selects multiple elements. Note that if there is no commonjs/module environment, you will access this function using `$.$$`.
+
+#### Params
+- **String** `selector`: The DOM query selector.
+- **HTMLElement** `context`: The element context/container. Defaults to `document`.
+
+#### Return
+- **NodeList** The `NodeList` object containing the selected elements.
 
