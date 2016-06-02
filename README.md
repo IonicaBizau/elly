@@ -21,7 +21,7 @@ $ npm i --save elly
 
 
 
-```js
+```html
 <!DOCTYPE html>
 <html lang="en">
     <head>
