@@ -45,10 +45,12 @@
   },
   "blah": {
     "description": [
-        { "h2": "Is this a jQuery alternative?" },
-        {
-          "p": "Well, in many cases yes. *elly* is a tiny wrapper around the `querySelector`, `querySelectorAll` and `document.createElement`, so, it basically can select and create DOM elements."
-        }
+      {
+        "h2": "Is this a jQuery alternative?"
+      },
+      {
+        "p": "Well, in many cases yes. *elly* is a tiny wrapper around the `querySelector`, `querySelectorAll` and `document.createElement`, so, it basically can select and create DOM elements."
+      }
     ],
     "examplePath": "index.html",
     "h_img": "http://i.imgur.com/hQjyLBz.png"
