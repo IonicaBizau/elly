@@ -7,6 +7,11 @@
 
 > A tiny library for creating and selecting DOM elements.
 
+## Is this a jQuery alternative?
+
+Well, in many cases yes. *elly* is a tiny wrapper around the `querySelector`, `querySelectorAll` and `document.createElement`, so, it basically can select and create DOM elements.
+
+
 ## :cloud: Installation
 
 
