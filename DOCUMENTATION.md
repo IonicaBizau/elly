@@ -22,5 +22,5 @@ Selects multiple elements. Note that if there is no commonjs/module environment,
 - **HTMLElement** `context`: The element context/container. Defaults to `document`.
 
 #### Return
-- **NodeList** The `NodeList` object containing the selected elements.
+- **Array** The array of elements.
 

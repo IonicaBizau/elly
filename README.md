@@ -95,13 +95,19 @@ Selects multiple elements. Note that if there is no commonjs/module environment,
 - **HTMLElement** `context`: The element context/container. Defaults to `document`.
 
 #### Return
-- **NodeList** The `NodeList` object containing the selected elements.
+- **Array** The array of elements.
 
 
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+
+ - [`dom-repeater`](https://github.com/IonicaBizau/dom-repeater#readme)—Render lists in DOM easily.
+ - [`github-calendar`](https://github.com/IonicaBizau/github-calendar#readme)—Embed your GitHub contributions calendar anywhere.
 
 ## :scroll: License
 
