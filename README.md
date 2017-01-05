@@ -116,8 +116,10 @@ Thanks! :heart:
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
 
+ - [`bloggify-social`](https://github.com/Bloggify/social)—A Bloggify plugin for sharing articles on social networks.
  - [`dom-repeater`](https://github.com/IonicaBizau/dom-repeater#readme)—Render lists in DOM easily.
  - [`github-calendar`](https://github.com/IonicaBizau/github-calendar#readme)—Embed your GitHub contributions calendar anywhere.
+ - [`mini-lightbox`](https://github.com/ionicabizau/mini-lightbox)—Minimalist image lightbox
 
 ## :scroll: License
 
