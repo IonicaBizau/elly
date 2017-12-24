@@ -11,6 +11,7 @@
 
 ## Is this a jQuery alternative?
 
+
 Well, in many cases yes. *elly* is a tiny wrapper around the `querySelector`, `querySelectorAll` and `document.createElement`, so, it basically can select and create DOM elements.
 
 
@@ -19,10 +20,14 @@ Well, in many cases yes. *elly* is a tiny wrapper around the `querySelector`, `q
 
 Check out the [`dist`](/dist) directory to download the needed files and include them on your page.
 
-If you're using this module in a CommonJS environment, you can install it from `npm` and `require` it:
+If you're using this module in a CommonJS environment, you can install it using `npm` or `yarn` and `require` it:
 
 ```sh
-$ npm i --save elly
+# Using npm
+npm install --save elly
+
+# Using yarn
+yarn add elly
 ```
 
 
@@ -82,7 +87,9 @@ There are few ways to get help:
 
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
+
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 
 ## :memo: Documentation
